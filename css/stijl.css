@@ -1,0 +1,160 @@
+body {
+  font-family: sans-serif;
+  background-color: dodgerblue;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;
+  width: 1240px;
+  margin: 0 auto;
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Controleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+  padding: 22px 42px;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.header__auteur {
+  float: right;
+  text-align: right;
+}
+
+.header__knop {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+.header--cta {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+
+.header--cta:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+  padding: 20px;
+}
+section {
+  background-color: rgba(30, 200, 240, 0.5);
+  width: 360px;
+  box-sizing: border-box;
+  margin: 20px;
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventurrl wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.stukje {
+  width: 260px;
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+}
+
+.stukje:hover {
+  color: white;
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+}
+
+#kauwgum {padding-bottom: 238px;}
+
+#bnden {padding-bottom: 134px;}
+
+#doelen {padding-bottom: 71px;}
+
+#bal {padding-bottom: 154px;}
+
+#lichaam {padding-bottom: 114px;}
+
+#nicotine {padding-bottom: 114px;}
+
+
+h3 {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+footer {
+  clear: left;
+  /*als dit achterwege blijft vloeit de footer ook nog langs de
+  floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins
+  blijft */
+  background-color: rgba(0,0,0,.7);
+  color: white;
+  padding: 20px 41px;
+}
+
+.validatie__afbeelding {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+
+.header__bron {
+  float: right;
+  text-align: right;
+}
+      
